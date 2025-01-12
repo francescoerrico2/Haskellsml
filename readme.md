@@ -127,14 +127,6 @@ val test9 = Match (List [Int 3, Int 4],
 val result9 = eval [] test9; (* Risultato atteso: Int 2 *)
 ```
 
-### Test 10: Match senza corrispondenza
-**Descrizione**: Verifica il comportamento in caso di mancata corrispondenza.
-```sml
-val test10 = Match (List [Int 1], [(PListNil, Int 0)]);
-val result10 = (eval [] test10 handle Fail msg => msg);
-(* Risultato atteso: "No matching pattern" *)
-```
-
 ---
 
 ## Conclusioni
