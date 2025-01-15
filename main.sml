@@ -11,7 +11,7 @@ datatype expr =
   | Match of expr * (pattern * expr) list
   | List of expr list
 
-(*I pattern vengono utilizzati per il pattern matching. Ecco le varianti definite:*)
+(*I pattern vengono utilizzati per il pattern matching:*)
 and pattern =
     PVar of string
   | PInt of int
