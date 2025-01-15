@@ -8,7 +8,7 @@ In questo progetto, ho implementato un **sottolinguaggio significativo di Haskel
 ## Struttura del Codice
 
 ### 1. Definizione dei Tipi
-Abbiamo definito due tipi principali per rappresentare le **espressioni** e i **pattern** del linguaggio:
+Ho definito due tipi principali per rappresentare le **espressioni** e i **pattern** del linguaggio:
 
 #### Espressioni (`expr`)
 Le espressioni rappresentano i costrutti del linguaggio. Ecco le varianti definite:
@@ -135,6 +135,4 @@ L'interprete sviluppato in SML implementa con successo un sottolinguaggio signif
 - Pattern matching avanzato.
 - Supporto per funzioni anonime e applicazioni.
 - Costrutti base come `If`, `Let`, e operazioni su liste.
-
-I test dimostrano la correttezza e la versatilità dell'interprete, rendendolo una base solida per eventuali estensioni future, come l'aggiunta di tuple, tipi opzionali o altre strutture dati.
 
